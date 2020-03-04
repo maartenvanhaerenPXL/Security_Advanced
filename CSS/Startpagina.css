@@ -1,0 +1,31 @@
+body{
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: lightgrey;
+}
+image{
+    float: left;
+}
+h1{
+    float: right;
+    margin-top: 50px;
+}
+header{
+    background: green;
+}
+main{
+    margin: 100px;
+    text-align: center;
+}
+input{
+    width: 200px;
+}
+button {
+    width: 100px;
+    height: 75px;
+    border-radius: 100%;
+    margin: 20px;
+}
+footer{
+    background-color: green;
+}
