@@ -27,9 +27,15 @@ button {
     margin: 20px;
 }
 footer{
-    background-color: green;
+    display: block;
+    margin-top: 325px;
 }
 #error{
     font: bolder;
-    color: red;
+    color: black;
+    background-color: red;
+    visibility: hidden;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
 }

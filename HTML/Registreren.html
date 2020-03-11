@@ -12,8 +12,8 @@
     <H1>Registreren</H1>
 </header>
 <main>
-    <div id="app">
-    <span id="error"></span><br/>
+
+
     Username: <input id="UserName" />
     <br>
     Password: <input id="Password" type="password" />
@@ -22,10 +22,10 @@
     <br>
     <button id="Registreren" onclick="registreren()">Registreren</button>
     <a id="Login" href="Login.html">Login</a>
-    </div>
+
 </main>
 <footer>
-
+    <textarea id="error">error</textarea><br/>
 </footer>
 <script>
     var username = document.getElementById("UserName");
@@ -34,10 +34,14 @@
 
     var error = document.getElementById("error");
             function registreren () {
-                if (password.text != passwordcontrol.text) {
-                    error.text = "Wachtwoorden komen niet overeen"
+                if (password.value != passwordcontrol.value) {
+                    error.style.visibility = "visible";
+                    error.value = "Wachtwoorden komen niet overeen"
                 }
-                console.log("click" + passwordcontrol + password.);
+                else {
+                    error.style.visibility = "hidden";
+
+                }
             }
 
 
