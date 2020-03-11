@@ -1,6 +1,5 @@
 body{
-    margin-left: 100px;
-    margin-right: 100px;
+
     background-color: lightgrey;
 }
 image{
@@ -28,7 +27,7 @@ button {
 }
 footer{
     display: block;
-    margin-top: 325px;
+    margin-top: 16%;
 }
 #error{
     font: bolder;
