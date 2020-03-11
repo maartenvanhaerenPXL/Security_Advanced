@@ -29,3 +29,7 @@ button {
 footer{
     background-color: green;
 }
+#error{
+    font: bolder;
+    color: red;
+}
