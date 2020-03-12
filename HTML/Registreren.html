@@ -34,12 +34,15 @@
 
     var error = document.getElementById("error");
             function registreren () {
-                if (password.value != passwordcontrol.value) {
+                if (username.value.length == 0) {
+                    error.style.visibility = "visible";
+                    error.value += "Het veld username is leeg"
+                }else if (password.value != passwordcontrol.value){
                     error.style.visibility = "visible";
                     error.value = "Wachtwoorden komen niet overeen"
                 }
                 else {
-                    //error.style.visibility = "hidden";
+                    error.style.visibility = "hidden";
 
                 }
             }
