@@ -33,7 +33,7 @@ footer{
     margin-top: 16%;
 }
 #error{
-    font: bolder;
+    font-family: bolder;
     color: black;
     background-color: red;
     visibility: hidden;

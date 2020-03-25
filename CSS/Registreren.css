@@ -31,7 +31,7 @@ footer{
     height: 300px;
 }
 #error{
-    font: bolder;
+    font-family: bolder;
     color: black;
     background-color: red;
     visibility: hidden;
