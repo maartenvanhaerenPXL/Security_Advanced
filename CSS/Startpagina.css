@@ -49,3 +49,11 @@ textarea{
     min-height: 100px;
     margin-top: 50px;
 }
+input:hover{
+    background-color: greenyellow;
+    font-size: x-large;
+}
+#Delete:hover{
+    background-color: red;
+    font-size: x-large;
+}
