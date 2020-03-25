@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Login</title>
     <link rel="stylesheet" href="../CSS/Login.css">
-    <script src="../JavaScript/Login.js"></script>
 </head>
 <body>
 <header>
@@ -16,28 +15,14 @@
     <br>
     Password: <input id="Password" type="password"/>
     <br>
-    <button id="Login" onclick="login()">Login</button>
+    <input type="button" id="Login"  value="login">
     <a id="Registreren" href="Registreren.html">Registreren</a>
 
 </main>
 <footer>
     <textarea id="error">error</textarea><br/>
 </footer>
-<script>
-    var username = document.getElementById("UserName");
-    var password = document.getElementById("Password");
-
-    var error = document.getElementById("error");
-    function login () {
-        if (username.value.length == 0) {
-            error.style.visibility = "visible";
-            error.value = "Het veld username is leeg";
-        }
-        else {
-            error.style.visibility = "hidden";
-        }
-    }
-</script>
+<script src="../JavaScript/Login.js"></script>
 
 </body>
 </html>

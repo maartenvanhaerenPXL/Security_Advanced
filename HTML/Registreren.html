@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Registreren</title>
     <link rel="stylesheet" href="../CSS/Registreren.css">
-    <script src="../JavaScript/Registreren.js"></script>
 </head>
 <body>
 <header>
@@ -25,29 +24,9 @@
 
 </main>
 <footer>
-    <textarea id="error">error</textarea><br/>
+    <textarea id="error"></textarea><br/>
 </footer>
-<script>
-    var username = document.getElementById("UserName");
-    var password = document.getElementById("Password");
-    var passwordcontrol = document.getElementById("PasswordControl");
+<script src="../JavaScript/Registreren.js"></script>
 
-    var error = document.getElementById("error");
-            function registreren () {
-                if (username.value.length == 0) {
-                    error.style.visibility = "visible";
-                    error.value += "Het veld username is leeg"
-                }else if (password.value != passwordcontrol.value){
-                    error.style.visibility = "visible";
-                    error.value = "Wachtwoorden komen niet overeen"
-                }
-                else {
-                    error.style.visibility = "hidden";
-
-                }
-            }
-
-
-</script>
 </body>
 </html>

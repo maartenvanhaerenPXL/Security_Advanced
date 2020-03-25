@@ -1,6 +1,5 @@
 body{
-    margin-left: 100px;
-    margin-right: 100px;
+
     background-color: lightgrey;
 }
 image{
@@ -9,6 +8,11 @@ image{
 h1{
     float: right;
     margin-top: 50px;
+}
+#Welkom{
+    text-align: center;
+    width: 100%;
+    margin-top: 0px;
 }
 header{
     background: green;
@@ -28,4 +32,20 @@ button {
 }
 footer{
     background-color: green;
+}
+#View{
+    height: 80%;
+    margin-top: 0px;
+}
+input {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+textarea{
+    min-width: 60%;
+    min-height: 100px;
+    margin-top: 50px;
 }
