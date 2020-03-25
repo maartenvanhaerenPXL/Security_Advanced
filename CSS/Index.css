@@ -1,0 +1,56 @@
+body{
+
+    background-color: lightgrey;
+
+}
+image{
+    float: left;
+}
+h1{
+    float: right;
+    margin-top: 50px;
+}
+header{
+    background: green;
+    width: 100%;
+
+}
+main{
+    margin: 100px;
+    text-align: center;
+}
+input{
+    width: 200px;
+}
+button {
+    width: 100px;
+    height: 75px;
+    border-radius: 100%;
+    margin: 20px;
+}
+footer{
+    display: block;
+    margin-top: 16%;
+}
+#error{
+    font: bolder;
+    color: black;
+    background-color: red;
+    visibility: hidden;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+table{
+    margin-left: 25%;
+    width: 50%;
+}
+input{
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 50px;
+}
+span{
+    font-size: larger;
+}

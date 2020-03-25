@@ -7,7 +7,8 @@ image{
 }
 h1{
     float: right;
-    margin-top: 50px;
+    margin-top: 25px;
+    margin-right: 50px;
 }
 #Welkom{
     text-align: center;
@@ -51,7 +52,7 @@ textarea{
     width: 60%;
 
     min-height: 100px;
-    margin-top: 50px;
+    margin-top: 0px;
 }
 input:hover{
     background-color: greenyellow;
@@ -66,21 +67,44 @@ table{
     border-color: black;
     border-collapse: collapse;
     border-style: double;
+    background-color: white;
 }
 tr{
     width: 100%;
 }
-td{
- width: 50%;
+h2{
+    margin-top: 0px;
+    text-align: left;
+    margin-left: 20%;
 }
-span{
-
-    max-width: 100%;
-    background-color: blue;
+#messageBox{
+    max-width: 70%;
+    background-color: aquamarine;
     border-radius: 25%;
     text-align: center;
     float: right;
     font-size: large;
-    border: black;
     padding: 15px;
+}
+#messsageBoxRecieved{
+    max-width: 70%;
+    background-color: lightgrey;
+    border-radius: 25%;
+    float: left;
+    font-size: large;
+    padding: 15px;
+}
+#Back{
+    width: 200px;
+    height: 50px;
+    border-radius: 50%;
+    float: right;
+    clear: both;
+    margin-top: -75px;
+    margin-right: 75px;
+}
+
+#Back:hover{
+    background-color: red;
+    font-size: small;
 }

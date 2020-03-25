@@ -15,7 +15,7 @@ function login () {
     }
     else {
         error.style.visibility = "hidden";
-        window.location = "../HTML/Startpagina.html";
+        window.location = "../HTML/Index.html";
             //window.location moet weg eens de login werkt
         // fetch(url,
         //     {
@@ -49,7 +49,7 @@ function login () {
         //         //console.log(token);
         //         //console.log(nickName);
         //         //console.log(sessionStorage.getItem("token"));
-        //         window.location = "../HTML/Startpagina.html";
+        //         window.location = "../HTML/Chatroom.html";
         //     })
         //     .catch((error) => {
         //         error.visibility = true;
