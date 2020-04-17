@@ -5,12 +5,9 @@ let welkom = document.getElementById("Welkom");
 let sendButton = document.getElementById("Send")
 let table = document.getElementById("messageTable");
 let backButton = document.getElementById("Back");
-//hardcoded users
-let userA = "Maarten";
-let userB = "user2";
+
 //
-chatroomOf.innerHTML += userA;
-welkom.innerHTML += userB;
+
 
 deleteButton.onclick = deleteFunction;
 
