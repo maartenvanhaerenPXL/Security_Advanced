@@ -24,8 +24,10 @@ h2{
 }
 input{
     width: 200px;
+    height: 50px;
     margin-right: 10px;
     margin-left: 10px;
+    border-radius: 100%;
 }
 /*input:hover{*/
 /*    background-color: greenyellow;*/
@@ -43,8 +45,8 @@ tr{
 textarea{
     width: 60%;
     overflow-y: auto;
-    min-height: 60px;
-
+    max-height: 400px;
+    height: 100px;
     margin-top: 0px;
     margin-left: calc(18%);
 }
@@ -54,7 +56,8 @@ table{
     border-collapse: collapse;
     border-style: double;
     background-color: white;
-    max-height: 500px;
+    max-height: 400px;
+    overflow: scroll;
 }
 footer{
     background-color: green;
@@ -71,10 +74,7 @@ footer{
     width: 100%;
     margin-top: 0px;
 }
-#Delete:hover{
-    background-color: red;
-    font-size: x-large;
-}
+
 #floatRight{
     float: right;
     display: block;
@@ -121,3 +121,9 @@ footer{
 #OpenDirectory{
 
 }
+
+    table{width: 100%; margin: 0px}
+    textarea{width: 100%; margin: 0px}
+    #View{margin: 0; width: 100% }
+    input{margin-left: 5%;margin-right: 5%}
+    #floatRight{float: none}

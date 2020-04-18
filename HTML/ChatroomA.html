@@ -14,7 +14,7 @@
 <main>
     <h1 id="Welkom">Welkom to the chat with Bob</h1>
     <section id="View">
-        <table id="messageTable">
+        <table  id="messageTable">
 
         </table>
     </section>
@@ -23,23 +23,16 @@
         <textarea id="Message" ></textarea>
         <span id="floatRight">
             <input type="submit" value="send" id="Send">
-            <br><br>
             <input type="button" value="delete" id="Delete">
+            <input type="file" id="real-file" hidden/>
+            <input type="button" id="custom-button" value="Upload a file"/>
         </span>
-    </section>
-    <section>
-        <form action="upload.php" method="post" enctype="multipart/form-data">
-            <h2>Select image to upload:</h2>
-            <br>
-            <input type="file" name="fileToUpload" id="fileToUpload" id="OpenDirectory">
-            <input type="submit" value="Upload Image" name="submit" id="UploadFile">
-        </form>
     </section>
 </main>
 <footer>
 
 </footer>
-<!--<script src="../JavaScript/Chatroom.js"></script>-->
-<script src="../JavaScript/ChatroomA.js"></script>
+<script src="../JavaScript/UserA.js"></script>
+<script src="../JavaScript/Chatroom.js"></script>
 </body>
 </html>
